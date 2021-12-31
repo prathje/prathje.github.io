@@ -433,3 +433,5 @@ body { background-image: none; }
 
 .icon img { height: 1em; margin: auto; display: inline-block; }
 .icon img.linked-in-icon { filter: brightness(0) invert(1) opacity(0.85); }
+
+main { padding: 15px; }

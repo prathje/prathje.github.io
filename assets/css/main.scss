@@ -1,0 +1,55 @@
+---
+# Jekyll needs front matter for SCSS files
+---
+
+$sidebar-bg-color: #140050;
+$link-color: #140050;
+$sidebar-sticky: false;
+@import "hydeout";
+
+
+
+body {
+    background-image: none;
+  }
+
+.container {
+    background: $body-bg;
+    color: $body-color;
+}
+
+/*
+#sidebar {
+    .site-title:before{
+        content: "";
+        display: inline-block;
+        background: url(img/logo.png) no-repeat;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        height: 150px;
+    }
+}*/
+
+
+
+#subscribe-link {
+    display: none !important;
+}
+
+
+.icon {
+    img {
+        height: 1em;
+        margin: auto;
+        display: inline-block;
+
+        &.linked-in-icon {
+            filter: brightness(0) invert(1) opacity(0.85);
+        }
+     }
+}
+
+main {
+    padding: 15px;
+}
